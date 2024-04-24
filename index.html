@@ -17,16 +17,13 @@
       
       <div id="liveView" class="camView">
         <button id="webcamButton">Enable Webcam</button>
-        <button id="enableMobileCameraButton">Enable Mobile Camera</button>
+        <button id="disableWebcamButton">Disable Webcam</button>
+        <button id="recordButton">Record</button>
+
         <video id="webcam" autoplay muted width="640" height="480"></video>
       </div>
+      
     </section>
-    <button id="hideWebcamButton" class="removed">Hide Webcam</button>
-    <button id="startRecordingButton" class="removed">Start Recording</button>
-    <button id="stopRecordingButton" class="removed">Stop Recording</button>
-    <button id="saveRecordingButton" class="removed">Save Recording</button>
-    
-
 
     <!-- Import TensorFlow.js library -->
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js" type="text/javascript"></script>
@@ -35,5 +32,5 @@
     
     <!-- Import the page's JavaScript to do some stuff -->
     <script src="script.js" defer></script>
-  </body>
+  </body>
 </html>

@@ -11,7 +11,6 @@ h1 {
 
 video {
   display: block;
-  transform: scaleX(-1);
 }
 
 section {
@@ -49,5 +48,11 @@ section {
   background: rgba(0, 255, 0, 0.25);
   border: 1px dashed #fff;
   z-index: 1;
-  position: absolute;
+  position: absolute;
+}
+
+/*here flipping the image*/
+
+.camView video {
+  transform: scaleX(-1); /* Flips the video horizontally */
 }
