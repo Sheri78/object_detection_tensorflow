@@ -17,7 +17,6 @@ section {
   opacity: 1;
   transition: opacity 500ms ease-in-out;
 }
-
 .removed {
   display: none;
 }
@@ -50,9 +49,12 @@ section {
   z-index: 1;
   position: absolute;
 }
-
-/*here flipping the image*/
-
-.camView video {
-  transform: scaleX(-1); /* Flips the video horizontally */
+#webcamButtonControll{
+  display: none;
+}
+#recordButton{
+  display: none;
+}
+#webcam {
+  transform: scaleX(-1);
 }

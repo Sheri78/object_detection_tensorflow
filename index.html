@@ -17,12 +17,14 @@
       
       <div id="liveView" class="camView">
         <button id="webcamButton">Enable Webcam</button>
-        <button id="disableWebcamButton">Disable Webcam</button>
-        <button id="recordButton">Record</button>
-
+        <form id="uploadForm" style="margin-top: 20px;">
+          <input type="file" id="uploadVideo" accept="video/*">
+          <button type="submit">Upload Video</button>
+        </form>
         <video id="webcam" autoplay muted width="640" height="480"></video>
+        <button id="webcamButtonControll">Disable Webcam</button>
+        <button id="recordButton">Record</button>
       </div>
-      
     </section>
 
     <!-- Import TensorFlow.js library -->
